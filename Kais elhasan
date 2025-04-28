@@ -1,0 +1,17 @@
+# ادخل المجلد الذي يحتوي على الكود
+cd /path/to/your/bot/code
+
+# تهيئة مجلد git
+git init
+
+# إضافة جميع الملفات إلى Git
+git add .
+
+# إجراء أول commit
+git commit -m "Initial commit"
+
+# ربط المستودع البعيد الذي تم إنشاؤه على GitHub
+git remote add origin https://github.com/YourUsername/YourRepoName.git
+
+# رفع الكود إلى GitHub
+git push -u origin master
